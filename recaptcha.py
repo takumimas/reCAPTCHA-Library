@@ -4,7 +4,7 @@ import urllib.parse
 def recaptcha(key,token):
     url = "https://www.google.com/recaptcha/api/siteverify"
     post_data = {
-        "secret":" {Secret key} ",
+        "secret":key,
         "response" : str(token)
     }
     post_data = urllib.parse.urlencode(post_data).encode("utf-8")
