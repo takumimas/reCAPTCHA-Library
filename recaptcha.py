@@ -1,7 +1,7 @@
-import json
-import urllib.request
-import urllib.parse
 def recaptcha(key,token):
+    import json
+    import urllib.request
+    import urllib.parse
     url = "https://www.google.com/recaptcha/api/siteverify"
     post_data = {
         "secret":key,
