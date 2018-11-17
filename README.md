@@ -22,3 +22,5 @@ answer = recaptcha("your secret key","token")
 If it is not robot,return True.
 
 If it is robot,return False.
+
+This libraly uses urllib.request
