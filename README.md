@@ -6,6 +6,8 @@ Can check reCAPTCHA token.
 
 # How to use
 
+*This libraly uses urllib.request
+
 1.Download recaptcha.py
 
 2.import your Python source
@@ -22,5 +24,3 @@ answer = recaptcha("your secret key","token")
 If it is not robot,return True.
 
 If it is robot,return False.
-
-*This libraly uses urllib.request
