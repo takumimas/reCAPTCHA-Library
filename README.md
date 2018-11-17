@@ -23,4 +23,4 @@ If it is not robot,return True.
 
 If it is robot,return False.
 
-This libraly uses urllib.request
+*This libraly uses urllib.request
